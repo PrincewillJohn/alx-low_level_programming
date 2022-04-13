@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: prints one digit numbers less than ten
+ * Description: prints one digit number less than ten
  * Return: 0
  */
 int main(void)
