@@ -2,7 +2,7 @@
 
 /**
  * main - Prints all the possible combinations of two two-digit numbers,
- *	ranging from 0 t0 99, seperated by a comma followed by a space.
+ * ranging from 0 t0 99, seperated by a comma followed by a space.
  *
  *Return: Always 0.
  */
@@ -10,7 +10,7 @@ int main(void)
 {
 	int num1, num2;
 
-	for (num1 = 0; num1 <= 99; num1++)
+	for (num1 = 0; num1 <= 98; num1++)
 	{
 	for (num2 = num1 + 1; num2 <= 99; num2++)
 	{
