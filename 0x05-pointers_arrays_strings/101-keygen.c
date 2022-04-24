@@ -11,25 +11,24 @@
 
 int main(void)
 {
-	int i, sum, n;
-	int pass[100];
+	char a[100];
+	int r, n, i;
 
-	sum = 0;
-
+	n = 0;
+	i = 0;
 	srand(time(NULL));
-
-	for (i = 0; i < 100; i++)
+	while (n < 2645)
 	{
-	pass[i] = rand() % 78;
-	sum += (pass[i] + '0');
-	if ((2772 - sum) - '0' < 78)
+	r = rand() % 122;
+	if (r > 32)
 	{
-		n = 2772 - sum - '0';
-		sum += n;
-		putchar(n + '0');
-		break;
-
+		a[i++] = r;
+		n += r;
 	}
 	}
+	a[i++] = (2772 - n);
+	a[i] = '\0';
+	printf("%s", a);
+
 	return (0);
 }
