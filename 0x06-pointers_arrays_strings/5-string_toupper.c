@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * string_touper - converts string to uppercase
  * @s: input string
  * Return: s
  */
-
 char *string_toupper(char *s)
 {
 	int count = 0;
