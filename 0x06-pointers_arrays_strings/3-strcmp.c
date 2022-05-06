@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcmp - compares two strings 
- * @s1: first string
- * @s2: second string
+ * @s1: input parameter
+ * @s2: input parameter
  *
  * Return: 0 if equal or b if different
  */
