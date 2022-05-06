@@ -3,7 +3,7 @@
  * cap_string - capitalizes all words of a string
  * @str: the string to change the first letter of a word in uppercase
  *
- * Return: capitalized letters
+ * Return: capitalizes letters
  */
 char *cap_string(char *str)
 {
