@@ -5,7 +5,7 @@
  *
  * Return: capitalized letters
  */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int i;
 	int j;
