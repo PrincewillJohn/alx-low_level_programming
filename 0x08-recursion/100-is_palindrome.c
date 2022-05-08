@@ -39,7 +39,7 @@ int compare(char *s, int l)
 }
 
 /**
- * is _palindrome - main - check the code
+ * is_palindrome - main - check the code
  * @s: character
  *
  * Return: Always 0
