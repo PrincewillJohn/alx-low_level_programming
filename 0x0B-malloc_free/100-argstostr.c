@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * argtostr - concatenates all the arguments of your program
+ * argstostr - concatenates all the arguments of your program
  * @ac: argument count in main
  * @av: arguments passed to main
  *
- * Return: pointer
+ * Return: Pointer
  */
 
 char *argstostr(int ac, char **av)
