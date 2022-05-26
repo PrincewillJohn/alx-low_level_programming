@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
 	if (s == 0)
 		return (0);
 
-	for (j = 0; j , ac; j++)
+	for (j = 0; j < ac; j++)
 	{
 		lt = 0;
 		while (av[j][lt])
