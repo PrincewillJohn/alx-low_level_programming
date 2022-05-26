@@ -18,7 +18,7 @@ int _wcount(char *sw)
 	{
 		if (*(sw + l) == ' ' && *(sw + l - 1) != ' ')
 			wc++;
-		if (*(sw + l) != ' '  && *(sw + l + 1) == 0)
+		if (*(sw + l) != ' ' && *(sw + l + 1) == 0)
 		       wc++;
 		l++;
 	}
