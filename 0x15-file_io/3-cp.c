@@ -66,7 +66,7 @@ int main(int argc, char **argv)
 		f2 = open(argv[2], O_TRUNC | O_WRONLY);
 	if (f2 == -1)
 	{
-		dprintf(STERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		close(f1);
 		exit(99);
 	}
