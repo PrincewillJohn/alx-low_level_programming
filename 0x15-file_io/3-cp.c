@@ -28,7 +28,7 @@ void copy_text_file(int f1, int f2, char *file1, char *file2)
 		if (!lenRead)
 			break;
 		lenWrite = write(f2, buffer, lenRead);
-		if (lenWrite == -1 || lenWrite != lenREad)
+		if (lenWrite == -1 || lenWrite != lenRead)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file2);
 			close(f1);
